@@ -1,0 +1,8 @@
+body{
+
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: rgb(122, 173, 122);
+}
