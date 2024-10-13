@@ -51,7 +51,6 @@ footer p a:hover {
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    background: rgb(130, 194, 207);
 }
 nav a {
     text-align:center;
@@ -71,7 +70,7 @@ h4 {
     width: 100%;
 }
 .home-title {
-    color:white;
+    color: rgb(116, 181, 206);
 }
 #hero-msg h1 {
     text-align:center;
