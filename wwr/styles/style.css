@@ -144,7 +144,7 @@ h4 {
 }
 main {
     display: grid;
-    grid-template-columns: repeat (10, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 main section {
     text-align:center;
