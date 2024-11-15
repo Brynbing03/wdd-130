@@ -6,108 +6,71 @@
     <title>W09 ICE Challenge</title>
 <style>
     body {
-        height: 630px;
-        width: 300px;
         background-color: black;
     }
-    #page {
-        background: white;
-        border-radius: 10px;
+
+    #wrapper {
+        width: 300px;
+        height: fit-content;
     }
-    h4 {
-        text-align: center;
-        color: #667ca0;
-        line-height: 0.1;
-    }
-    h1 {
-        text-align: center;
-        line-height: 0.1;
-    }
-    p {
-        text-align: center;
-    }
-    #post p {
-        color: #a097a0;
-        margin-top: 40px;
-    }
-    #post {
-        margin: 20px 10px 40px 10px;
-        background: white;
-    }
-    footer {
-        background-color: #405c89;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        color: whitesmoke;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        grid-template-columns: 1fr, 1fr, 1fr;
-        height: 75px;
-    }
-    footer p {
-        font-size: 10px;
-        line-height: 0.01;
-    }
-    footer h3 {
-        font-size: 20px;
-        line-height: 0.01;
-    }
+
     header img {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-    .verticle-line {
-        border-left: 2px solid #5c6b85;
-        height: 75px;
-    }
-    #read {
+
+    #page {
+        background: white;
+        height: 315px;
+        border-radius: 10px;
         text-align: center;
-        grid-area: 1 / 1;
-        margin: 0 auto;
     }
+
+    #page p {
+        padding: 0 15px;
+    }
+    footer {
+        background-color: #405c89;
+        display: grid;
+        align-items: center;
+        color: whitesmoke;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+
     #views {
-        grid-area: 1 / 3;
-        text-align: center;
-        margin: 0 auto;
-    }
-    #comments {
-        grid-area: 1 / 3;
-        text-align: center;
-        margin: 0 auto;
-    }
-    #read, #views, p {
-        margin-top: 5px;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
     }
 </style>
 </head>
 <body>
-    <div id="page">
-        <header>
-            <img src="w09_ice_image.jpeg" alt="ICE bridge pic">
-        </header>
-    <div id="page">
-        <h4>3 weeks ago</h4>
-        <h1>Post Three</h1>
-        <p>This would be some text to go here and tell you about this awesome article that they should definitely read.This would be some text to go here and tell you about this awesome article that they should definitely read.</p>
-    </div>
-    <footer>
-        <div id="read">
-            <h3>5<sup>m</sup></h3>
-            <p>READ</p>
+    <div id="wrapper">
+        <div id="page">
+            <header>
+                <img src="w09_ice_image.jpeg" alt="ICE bridge pic">
+            </header>
+        <div id="page">
+            <h4>3 weeks ago</h4>
+            <h1>Post Three</h1>
+            <p>This would be some text to go here and tell you about this awesome article that they should definitely read.This would be some text to go here and tell you about this awesome article that they should definitely read.</p>
         </div>
-        <div>
-        <div class="vertical-line"></div>
-        <div id="views">
-            <h3>2301</h3>
-            <p>VIEWS</p>
-        </div>
-        <div class="vertical-line"></div>
-        <div id="comments">
-            <h3>15</h3>
-            <p>COMMENTS</p>
-        </div>
-    </footer>
+        <footer>
+            <div id="read">
+                <h3>5<sup>m</sup></h3>
+                <p>READ</p>
+            </div>
+            <div id="views">
+                <h3>2301</h3>
+                <p>VIEWS</p>
+            </div>
+            <div id="comments">
+                <h3>15</h3>
+                <p>COMMENTS</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
