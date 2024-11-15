@@ -191,6 +191,27 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+    /* Page 2 Styling */
+.salmon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+}
+
+.salmon img {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    padding-left: 20px;
+}
+
+.salmon p {
+    font-size: 15px;
+}
+
+#salmon-title {
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
