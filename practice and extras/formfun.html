@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+
+            const firstname = document.getElementById("firstname").value;
+            const newsletter = document.getElementById("newsletter").checked;
+            alert(`You typed a First Name: ${firstname}!\nNewsletter: ${newsletter}`)
+        }
+    </script>
+    <style>
+        form {
+            background-color: antiquewhite;
+            padding: 20px;
+            text-align: center; 
+            border: 10px rgb(87, 3, 3) dotted;
+            border-radius: 50px;
+        }
+        label {
+            color: rgb(207, 81, 35)
+        }
+        button {
+            color:rgb(75, 26, 8);
+            background: rgb(207, 81, 35);
+            border-radius: 50px;
+        }
+    </style>
 </head>
 <body>
-    <form> 
+    <form onsubmit="handleSubmit(event)"> 
         <label for="firstname">First name:</label>
         <input typer="text" id="firstname" name="firstname" required> 
         <br><br>
