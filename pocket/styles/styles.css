@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/*** Navigation styling ***/
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+header img {
+    width: 150px;
+}
+
+/*** Home Page Styling ***/
+.card {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: rows;
+    text-align: center;
+    align-items: center;
+}
+
+.card img {
+    border: solid 2px red;
+    
+}
